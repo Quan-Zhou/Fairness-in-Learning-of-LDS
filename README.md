@@ -14,6 +14,9 @@ https://ncpol2sdpa.readthedocs.io/en/stable/index.html
 3 SDPA
 http://sdpa.sourceforge.net/
 
+4 AIF360 (for post-processing)
+https://github.com/Trusted-AI/AIF360
+
 Requirements for Julia scripts:
 
 1.TSSOS
