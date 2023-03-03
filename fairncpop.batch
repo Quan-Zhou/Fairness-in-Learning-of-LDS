@@ -1,0 +1,23 @@
+#!/bin/sh
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
+#SBATCH --error=/home/zhouqua1/FairNCPOP/err.err 
+#SBATCH --output=/home/zhouqua1/FairNCPOP/out.out 
+#SBATCH --mem-per-cpu 64G
+#SBATCH --time 1-00:00:00 
+#SBATCH --partition=amd
+
+ml mosek/9.2
+#ml Python/3.9.6-GCCcore-11.2.0
+ml Julia/1.8.5-linux-x86_64
+
+#python /home/zhouqua1/FairNCPOP/F3_sparsity.py
+#julia /home/zhouqua1/FairNCPOP/F3_nctssos.jl
+#julia /home/zhouqua1/FairNCPOP/F3_tssos.jl
+julia /home/zhouqua1/FairNCPOP/F3_tssos_compas.jl
+#python /home/zhouqua1/FairNCPOP/F3_ncpol2sdpa.py
+#python /home/zhouqua1/FairNCPOP/PostProcess_1.py
+#python /home/zhouqua1/FairNCPOP/PostProcess_2.py
+#python /home/zhouqua1/FairNCPOP/F4.py
+#python /home/zhouqua1/FairNCPOP/F1.py
+#python /home/zhouqua1/FairNCPOP/F2.py
