@@ -1,7 +1,17 @@
 # Fairness-in-Learning-of-LDS
 
-This the source code for the paper "Fairness in Forecasting and Learning Linear Dynamical Systems".
-It inculdes the scripts, and data for each figure in the paper.
+This the source code for the paper *Fairness in Forecasting of Observations of Linear Dynamical Systems*:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2209.05274,
+  doi = {10.48550/ARXIV.2209.05274},
+  url = {https://arxiv.org/abs/2209.05274},
+  author = {Zhou, Quan and Marecek, Jakub and Shorten, Robert N.},
+  title = {Fairness in Forecasting of Observations of Linear Dynamical Systems},
+  publisher = {arXiv},
+  year = {2022},
+}
+```
 
 Requirements for Python scripts:
 
