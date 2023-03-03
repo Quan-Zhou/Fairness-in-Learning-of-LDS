@@ -38,9 +38,9 @@ This the source code for the paper *Fairness in Forecasting of Observations of L
 - It was downloaded from https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis
 - It is named as ``data/compas-scores-two-years.csv''.
 
-## The organization of scripts:
+## The structure of scripts:
 
-- F1.py 
+- F1.py <font size='1'> dd
 - F2.py
 - F3_ncpol2sdpa.py F3_tssos.py F3_tssos_compas.py F3_sparsity.py
 - F4.py
