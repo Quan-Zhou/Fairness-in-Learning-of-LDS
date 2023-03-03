@@ -40,11 +40,12 @@ This the source code for the paper *Fairness in Forecasting of Observations of L
 
 ## The structure of scripts:
 
-- **F1.py** implementation and plotting of Figure 1.
-- F2.py
-- F3_ncpol2sdpa.py F3_tssos.py F3_tssos_compas.py F3_sparsity.py
-- F4.py
-- PostProcess_1.py PostProcess_2.py PostProcess_aif360.ipynb
-- PostProcess_plot.ipynb
-- functions.py
-- fairncpop.batch 
+- F1.py: implementation and plotting of Figure 1.
+- F2.py: implementation and plotting of Figure 2.
+- F3_ncpol2sdpa.py F3_tssos.py F3_tssos_compas.py F3_sparsity.py: implementation of Figure 3.
+- F3_plot.ipynb: plotting of Figure 3.
+- F4.py: implementation and plotting of Figure 4.
+- PostProcess_1.py PostProcess_2.py PostProcess_aif360.ipynb: implementation of Figure 5-7.
+- PostProcess_plot.ipynb: plotting of Figure 5-7.
+- functions.py: functions used for implementation.
+- fairncpop.batch: not relevant.
