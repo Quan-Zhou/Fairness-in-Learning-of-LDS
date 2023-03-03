@@ -40,7 +40,7 @@ This the source code for the paper *Fairness in Forecasting of Observations of L
 
 ## The structure of scripts:
 
-- F1.py ###### Heading6 
+- **F1.py** implementation and plotting of Figure 1.
 - F2.py
 - F3_ncpol2sdpa.py F3_tssos.py F3_tssos_compas.py F3_sparsity.py
 - F4.py
