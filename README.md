@@ -1,7 +1,7 @@
 # Fairness-in-Learning-of-LDS
 
 This the source code for the paper "Fairness in Forecasting and Learning Linear Dynamical Systems".
-It inculdes the scripts, workspace and data files for each figure in the paper.
+It inculdes the scripts, and data for each figure in the paper.
 
 Requirements for Python scripts:
 
