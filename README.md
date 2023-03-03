@@ -13,26 +13,27 @@ This the source code for the paper *Fairness in Forecasting of Observations of L
 }
 ```
 
-Requirements for Python scripts:
+## Dependencies
 
-1.inputlds
-https://raw.githubusercontent.com/jmarecek/OnlineLDS/master/inputlds.py
+1. Mosek/9.2 https://www.mosek.com/downloads/list/9/
 
-2.ncpol2sdpa
-https://ncpol2sdpa.readthedocs.io/en/stable/index.html
+2. Python scripts:
 
-3 SDPA
-http://sdpa.sourceforge.net/
+- Python/3.9.6
 
-4 AIF360 (for post-processing)
-https://github.com/Trusted-AI/AIF360
+- inputlds https://raw.githubusercontent.com/jmarecek/OnlineLDS/master/inputlds.py
 
-Requirements for Julia scripts:
+- ncpol2sdpa 1.12.2 https://ncpol2sdpa.readthedocs.io/en/stable/index.html
 
-1.TSSOS
-https://github.com/wangjie212/TSSOS
+- AIF360 (for post-processing) https://github.com/Trusted-AI/AIF360
 
-The COMPAS dataset: 
+3. Julia scripts:
+
+- Julia/1.8.5
+
+- TSSOS https://github.com/wangjie212/TSSOS
+
+4. The COMPAS dataset: 
 
 It was downloaded from https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis
-It is included in the data file, and named as ``compas-scores-two-years.csv''
+It is included named as ``data/compas-scores-two-years.csv''
