@@ -31,3 +31,8 @@ Requirements for Julia scripts:
 
 1.TSSOS
 https://github.com/wangjie212/TSSOS
+
+The COMPAS dataset: 
+
+It was downloaded from https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis
+It is included in the data file, and named as ``compas-scores-two-years.csv''
