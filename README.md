@@ -1,6 +1,6 @@
 # Fairness-in-Learning-of-LDS
 
-This the source code for the paper *Fairness in Forecasting of Observations of Linear Dynamical Systems*:
+This is the source code for the paper *Fairness in Forecasting of Observations of Linear Dynamical Systems*:
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2209.05274,
